@@ -1,9 +1,4 @@
-[readme.md](https://github.com/user-attachments/files/32720373/readme.md)
 Calculadora de Consumo Elétrico Inteligente
-
-![Python](https://shields.io)
-![GitHub](https://shields.io)
-![Status](https://shields.io)
 
 Este é um programa que se refere a agenda 5 do curso de Desenvolvimento de Sistemas, desenvolvido em Python que simula uma Calculadora de Consumo Elétrico Inteligente. O objetivo principal é ajudar os usuários a estimarem de forma simples o gasto de energia elétrica mensal de seus eletrodomésticos e o impacto financeiro na conta de luz.
 
