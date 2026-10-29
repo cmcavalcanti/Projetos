@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus sites favoritos</title>
+<!-- conforme pesquisa que fiz adicionei um estilo para o site referente ao titulo, cores e tamanho das imagens e links usando a tag style no cabeçalho -->
+   <style>
+        body {font-family: Arial, sans-serif;max-width: 800px;margin: 0 auto;padding: 200px;background-color: #f9f9f9;color: #333;}    
+        h1 {text-align: center;color: #2c3e50;margin-bottom: 40px;}
+        .site-card {background: white;border: 1px solid #ddd;border-radius: 8px;padding: 20px;margin-bottom: 30px;text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);}
+        .site-title {font-size: 1.5rem;font-weight: bold;margin-bottom: 15px;color: #34495e;}
+        .site-image {max-width: 100%;height: auto;border-radius: 4px;margin-bottom: 15px;border: 1px solid #eee;}
+        .site-link {display: inline-block;color: #3498db;text-decoration: none;font-weight: bold;}
+        .site-link:hover {text-decoration: underline;}
+    </style>
+</head>
+<body>
+    <!-- para o corpo foi adicionado o nome do site criado e meu nome (aluna) -->
+    <h1>Meus sites favoritos: Célia de Moura Cavalcanti</h1>
+<!-- a partir daqui foi usado o comando div com a tributo class para organizar a apresentação de cada site com as especificações solicitadas no exercício: título, imagem e link para acessar o site-->
+    <!-- primeiro site -->
+    <div class="site-card">
+        <div class="site-title">Google</div>
+        <img src="google.jpg" alt="Logo do Google" class="site-image">
+        <br>
+        <a href="https://google.com" target="_blank" class="site-link">Visitar o Google</a>
+    </div>
+    <!-- segundo site -->
+    <div class="site-card">
+        <div class="site-title">Duolingo</div>
+        <img src="duolingo.jpg" alt="Logo da Duolingo" class="site-image">
+        <br>
+        <a href="https://duolingo.com" target="_blank" class="site-link">Visitar a Duolingo</a>
+    </div>
+    <!-- terceiro site -->
+    <div class="site-card">
+        <div class="site-title">Instagram</div>
+        <img src="instagram.jpg" alt="Logo do Instagram" class="site-image">
+        <br>
+        <a href="https://instagram.com" target="_blank" class="site-link">Visitar o Instagram</a>
+    </div>
+   <!-- quarto site -->
+    <div class="site-card">
+        <div class="site-title">Mercado Livre</div>
+        <img src="mercadolivre.jpg" alt="Logo do Mercado Livre" class="site-image">
+        <br>
+        <a href="https://mercadolivre.com" target="_blank" class="site-link">Visitar o Mercado Livre</a>
+    </div>
+    <!-- quinto site -->
+    <div class="site-card">
+        <div class="site-title">AVA ETEC</div>
+        <img src="AVA ETEC.jpg" alt="Logo do AVA ETEC" class="site-image">
+        <br>
+        <a href="https://eadtec.cps.sp.gov.br/" target="_blank" class="site-link">Visitar o AVA ETEC</a>
+    </div>
+</body>
+</html>
